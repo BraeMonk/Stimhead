@@ -12,6 +12,10 @@ body{
 	background-color:purple;
 	display:flex;
 	flex-direction:column;
+	position:relative;
+	height:100vh;
+	width:100%;
+	overflow:hidden;
 }
 
 main{
@@ -83,7 +87,7 @@ footer{
 	width:100%;
 	min-width:1000px;
 	left:-80%;
-	overflow:auto;
+	overflow:hidden;
 }
 
 .a-friend{
@@ -131,7 +135,7 @@ footer{
 	font-family:cursive;
 	font-size:xx-large;
 	text-shadow:3px 3px 5px white;
-	overflow:auto;
+	overflow:hidden;
 }
 
 .hellish-landscape{
