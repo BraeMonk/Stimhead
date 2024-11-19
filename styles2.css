@@ -229,7 +229,10 @@ footer{
 
 .not-here{
 	display:flex;
-	float:right;
+	position:absolute;
+	right:-150%;
+	top:50%;
+	transform:translateY(-50%);
 	border:solid;
 	border-color:gold;
 	border-radius:5px;
