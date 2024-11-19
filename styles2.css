@@ -8,20 +8,22 @@ body{
 
 body{
 	color:black;
-	font-family:mono;
+	font-family:impact,fantasy;
 	background-color:purple;
 	display:flex;
 	flex-direction:column;
-	position:relative;
 	height:100vh;
 	width:100%;
-	overflow:hidden;
+	overflow:auto;
 }
 
 main{
 	flex:1;
 	display:flex;
 	flex-direction:column;
+	position:relative;
+	height: 100vh;
+	width:100%;
 }
 
 .h1v1{
@@ -239,6 +241,7 @@ footer{
 	font-size:large;
 	text-align:center;
 	color:black;
+	background-color:blue;
 	text-shadow:3px 3px 5px white;
 }
 	
