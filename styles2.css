@@ -131,6 +131,7 @@ footer{
 	font-family:cursive;
 	font-size:xx-large;
 	text-shadow:3px 3px 5px white;
+	overflow:auto;
 }
 
 .hellish-landscape{
@@ -225,3 +226,17 @@ footer{
 	flex:1;
 	overflow:auto;
 }
+
+.not-here{
+	display:flex;
+	float:right;
+	border:solid;
+	border-color:gold;
+	border-radius:5px;
+	font-family:courier;
+	font-size:large;
+	text-align:center;
+	color:black;
+	text-shadow:3px 3px 5px white;
+}
+	
